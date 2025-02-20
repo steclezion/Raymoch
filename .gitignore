@@ -13,3 +13,5 @@ npm-debug.log
 yarn-error.log
 /.idea
 /.vscode
+/resources/views/layouts/css_libs.blade.php
+/resources/views/layouts/js_libs.blade.php
