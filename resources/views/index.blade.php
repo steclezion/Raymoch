@@ -21,12 +21,15 @@
                                 </div>
                             </div>
                         </div>
+                        <br>
                         <div class="col-lg-6">
                             <div class="ps-lg-3">
-                                <div class="subtitle id-color wow fadeInUp" data-wow-delay=".2s">Welcome to RaymochVentures
+                                <div class="subtitle id-color wow fadeInUp" data-wow-delay=".3s">Welcome to Raymoch-Ventures
                                 </div>
-                                <h2 class="text-uppercase wow fadeInUp" data-wow-delay=".4s">Eritrean Enterprise Hub
-                                    <span class="id-color-2">Explore East Africa Potential</span></h2>
+                                <br>
+                                <h2 class="text-uppercase wow fadeInUp" data-wow-delay=".4s">East African  Enterprise Hub
+                                    {{-- <span class="id-color-2">Explore East Africa Potential</span> --}}
+                                </h2>
                                 <p class="wow fadeInUp" data-wow-delay=".6s">As part of the Eritrean Enterprise Hub, you are now connected to a network of forward-thinkers, entrepreneurs, and industry leaders who are dedicated to driving positive change and economic development in the region. Our mission is to support and nurture your aspirations by providing you with the resources, mentorship, and collaborative environment needed to turn your ideas into reality.</p>
                                 <a class="btn-main wow fadeInUp" href="services.html" data-wow-delay=".6s">Our Services</a>
                             </div>
