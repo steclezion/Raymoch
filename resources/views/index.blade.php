@@ -14,10 +14,10 @@
                         <div class="col-lg-6">
                             <div class="relative">
                                 <div class="rounded-1 bg-body w-90 overflow-hidden wow zoomIn">
-                                    <img src="{{asset('images/misc/1.webp')}}" class="w-100 jarallax wow scaleIn" alt="">
+                                    <img src="{{asset('images/services/9.png')}}" class="w-100 jarallax wow scaleIn" alt="">
                                 </div>
                                 <div class="rounded-1 bg-body w-50 abs mb-min-50 end-0 bottom-0 z-2 overflow-hidden shadow-soft wow zoomIn" data-wow-delay=".2s">
-                                    <img src="{{asset('images/misc/2.webp')}}" class="w-100 wow scaleIn" data-wow-delay=".2s" alt="">
+                                    <img src="{{asset('images/services/10.png')}}" class="w-100 wow scaleIn" data-wow-delay=".2s" alt="">
                                 </div>
                             </div>
                         </div>
@@ -27,7 +27,7 @@
                                 </div>
                                 <h2 class="text-uppercase wow fadeInUp" data-wow-delay=".4s">Eritrean Enterprise Hub
                                     <span class="id-color-2">Explore East Africa Potential</span></h2>
-                                <p class="wow fadeInUp" data-wow-delay=".6s">At Gardyn, we’re passionate about turning your garden into a true reflection of your personal style and a haven for relaxation and enjoyment. Whether you’re dreaming of a vibrant floral display, a serene outdoor retreat, or a stunning landscape transformation.</p>
+                                <p class="wow fadeInUp" data-wow-delay=".6s">As part of the Eritrean Enterprise Hub, you are now connected to a network of forward-thinkers, entrepreneurs, and industry leaders who are dedicated to driving positive change and economic development in the region. Our mission is to support and nurture your aspirations by providing you with the resources, mentorship, and collaborative environment needed to turn your ideas into reality.</p>
                                 <a class="btn-main wow fadeInUp" href="services.html" data-wow-delay=".6s">Our Services</a>
                             </div>
                         </div>
@@ -51,13 +51,13 @@
                                     <img src="{{asset('images/logo-icon.webp')}}" class="abs abs-centered w-20" alt="">
                                     <div class="abs bg-color z-2 top-0 w-100 h-100 hover-op-1"></div>
                                     <div class="abs z-2 bottom-0 mb-3 w-100 text-center hover-op-0">
-                                        <h4 class="mb-3">Garden Design</h4>
+                                        <h4 class="mb-3">Power Generation</h4>
                                     </div>
                                     <div class="gradient-trans-color-bottom abs w-100 h-40 bottom-0 Z-1"></div>
                                 </div>
 
                                 <div class="p-4 py-2">
-                                    <p class="mt-3">Imagine stepping into your own private oasis—a garden designed just for you, where every plant, path, and stone tells your story.</p>
+                                    <p class="mt-3">Utilize a mix of renewable and non-renewable energy, including solar, wind, hydropower, biomass, geothermal, natural gas, and nuclear, to ensure a stable, cost-effective, and environmentally friendly energy supply.</p>
                                 </div>
                             </div>
                         </div>
@@ -72,7 +72,7 @@
                                     <img src="{{asset('images/logo-icon.webp')}}" class="abs abs-centered w-20" alt="">
                                     <div class="abs bg-color z-2 top-0 w-100 h-100 hover-op-1"></div>
                                     <div class="abs z-2 bottom-0 mb-3 w-100 text-center hover-op-0">
-                                        <h4 class="mb-3">Garden Maintenance</h4>
+                                        <h4 class="mb-3">Whole Sales</h4>
                                     </div>
                                     <div class="gradient-trans-color-bottom abs w-100 h-40 bottom-0 Z-1"></div>
                                 </div>
@@ -93,7 +93,7 @@
                                     <img src="{{asset('images/logo-icon.webp')}}" class="abs abs-centered w-20" alt="">
                                     <div class="abs bg-color z-2 top-0 w-100 h-100 hover-op-1"></div>
                                     <div class="abs z-2 bottom-0 mb-3 w-100 text-center hover-op-0">
-                                        <h4 class="mb-3">Decking and Patio</h4>
+                                        <h4 class="mb-3">Construction</h4>
                                     </div>
                                     <div class="gradient-trans-color-bottom abs w-100 h-40 bottom-0 Z-1"></div>
                                 </div>
@@ -114,7 +114,7 @@
                                     <img src="{{asset('images/logo-icon.webp')}}" class="abs abs-centered w-20" alt="">
                                     <div class="abs bg-color z-2 top-0 w-100 h-100 hover-op-1"></div>
                                     <div class="abs z-2 bottom-0 mb-3 w-100 text-center hover-op-0">
-                                        <h4 class="mb-3">Plant Selection</h4>
+                                        <h4 class="mb-3">Hotel and Dining Business </h4>
                                     </div>
                                     <div class="gradient-trans-color-bottom abs w-100 h-40 bottom-0 Z-1"></div>
                                 </div>
@@ -166,7 +166,7 @@
                                                 <img src="{{asset('images/icons/tree.png')}}" class="abs abs-middle w-60px" alt="">
                                                 <div class="de_count ps-80 wow fadeInUp">
                                                     <h2 class="mb-0 fs-32"><span class="timer" data-to="550" data-speed="3000"></span>+</h2>
-                                                    <span class="op-7">Garden Designed</span>
+                                                    <span class="op-7">Construction /span>
                                                 </div>
                                             </div>
                                         </div>
@@ -209,7 +209,7 @@
                 </div>
             </section>
 
-            <section class="jarallax">
+            {{-- <section class="jarallax">
                 <img src="{{asset('images/background/11.webp')}}" class="jarallax-img" alt="">
                 <div class="container">
                     <div class="row g-4">
@@ -330,7 +330,7 @@
 
                     </div>
                 </div>
-            </section>
+            </section> --}}
 
             {{-- <section class="bg-light">
                 <div class="container">
@@ -411,7 +411,7 @@
             </section> --}}
 
 
-            <section>
+            {{-- <section>
                 <div class="container">
                     <div class="row g-4 mb-3 align-items-center justify-content-center">
                         <div class="col-xl-6 text-center">
@@ -513,7 +513,7 @@
 
                     </div>
                 </div>
-            </section>
+            </section> --}}
 
             <section class="p-4" aria-label="section">
                 <div class="container-fluid">

@@ -1,14 +1,14 @@
 
 <header class="transparent">
-    <div id="topbar">
+    {{-- <div id="topbar">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="d-flex justify-content-between xs-hide">
                         <div class="d-flex">
                             <div class="topbar-widget me-3"><a href="#"><i class="icofont-clock-time"></i>Monday - Friday 08.00 - 18.00</a></div>
-                            <div class="topbar-widget me-3"><a href="#"><i class="icofont-location-pin"></i>520  Van Buren St, California, CA</a></div>
-                            <div class="topbar-widget me-3"><a href="#"><i class="icofont-envelope"></i>elsa@raymoch.com</a></div>
+                            <div class="topbar-widget me-3"><a href="#"><i class="icofont-location-pin"></i>USA CA</a></div>
+                            <div class="topbar-widget me-3"><a href="#"><i class="icofont-envelope"></i>samsnow@raymoch.com</a></div>
                         </div>
 
                         <div class="d-flex">
@@ -25,7 +25,7 @@
             </div>
             <div class="clearfix"></div>
         </div>
-    </div>
+    </div> --}}
     <div class="container">
         <div class="row">
             <div class="col-md-12">
