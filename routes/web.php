@@ -22,3 +22,8 @@ Route::get('/', function () {
 Route::get('/team', function () {
     return view('team');
 });
+
+
+Route::get('/power_generation', function () {
+    return view('project_business');
+})->name('power_generation');

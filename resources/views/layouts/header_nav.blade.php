@@ -1,12 +1,12 @@
 
-<header class="transparent">
+<header >
     {{-- <div id="topbar">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="d-flex justify-content-between xs-hide">
                         <div class="d-flex">
-                            <div class="topbar-widget me-3"><a href="#"><i class="icofont-clock-time"></i>Monday - Friday 08.00 - 18.00</a></div>
+                            <div class="topbar-widget mde-3"><a href="#"><i class="icofont-clock-time"></i>Monday - Friday 08.00 - 18.00</a></div>
                             <div class="topbar-widget me-3"><a href="#"><i class="icofont-location-pin"></i>USA CA</a></div>
                             <div class="topbar-widget me-3"><a href="#"><i class="icofont-envelope"></i>samsnow@raymoch.com</a></div>
                         </div>
@@ -34,8 +34,9 @@
                         <!-- logo begin -->
                         <div id="logo">
                             <a href="/">
-                                <img class="logo-main" src="{{asset('images/logo-raymoch-.webp')}}" alt="" >
-                                <img class="logo-mobile" src="{{asset('images/logo-raymoch-.webp')}}" alt="" >
+                                <img class="logo-main rounded" width="60"  height="60" src="{{asset('images/1-edited-ai-1.svg')}}" alt="" >
+                                <h5 class="float-center" style="color:white;width:30;height;30">Raymoch</h2>
+                                <img class="logo-mobile" size="10" width="60"  height="60" src="{{asset('images/1-edited-ai-1.svg')}}" alt="" >
                             </a>
                         </div>
                         <!-- logo end -->
@@ -111,32 +112,32 @@
                             </li>
 
                             </style>
-                            <li><a class="menu-item" href="services.html">Services</a>
+                            <li><a class="menu-item" href="services.html">Business Profiles</a>
                                 <ul >
                                     <li><a href="services.html">All Services</a></li>
-                                    <li><a href="service-single.html">Service Single</a></li>
+                                    {{-- <li><a href="service-single.html">Service Single</a></li>
                                     <li><a href="pricing-plans.html">Pricing Plans</a></li>
-                                    <li><a href="price-list.html">Price List</a></li>
+                                    <li><a href="price-list.html">Price List</a></li> --}}
                                 </ul>
                             </li>
-                            <li><a class="menu-item" href="projects.html">Projects</a>
+                            <li><a class="menu-item" href="projects.html">Industry Insights  </a>
                                 <ul>
                                     <li><a href="projects.html">Projects Default</a></li>
-                                    <li><a href="projects-2.html">Projects 3 Columns</a></li>
+                                    {{-- <li><a href="projects-2.html">Projects 3 Columns</a></li>
                                     <li><a href="projects-3.html">Projects Parallax</a></li>
                                     <li><a href="projects-4.html">Projects Carousel</a></li>
-                                    <li><a href="project-single.html">Project Single</a></li>
+                                    <li><a href="project-single.html">Project Single</a></li> --}}
                                 </ul>
                             </li>
-                            <li><a class="menu-item" href="#">Pages</a>
+                            <li><a class="menu-item" href="#">Networking </a>
                                 <ul>
-                                    <li><a href="about.html">About Us</a></li>
+                                    <li><a href="about.html">Events</a></li>
                                     <li><a href="team.html">Our Team</a></li>
-                                    <li><a href="gallery.html">Gallery</a></li>
-                                    <li><a href="gallery-carousel.html">Gallery Carousel</a></li>
+                                    {{-- <li><a href="gallery.html">Gallery</a></li>
+                                    <li><a href="gallery-carousel.html">Gallery Carousel</a></li> --}}
                                 </ul>
                             </li>
-                            <li><a class="menu-item" href="shop-homepage.html">Shop</a></li>
+                            <li><a class="menu-item" href="shop-homepage.html">Market Analysis </a></li>
                             <li><a class="menu-item" href="blog.html">Blog</a></li>
                             <li><a class="menu-item" href="contact.html">Contact</a></li>
                         </ul>

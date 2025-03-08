@@ -6,8 +6,6 @@
 
             <div id="top"></div>
 
-
-
             <section class="pb-50">
                 <div class="container">
                     <div class="row g-4 align-items-center">
@@ -24,8 +22,8 @@
                         <br>
                         <div class="col-lg-6">
                             <div class="ps-lg-3">
-                                <div class="subtitle id-color wow fadeInUp" data-wow-delay=".3s">Welcome to Raymoch-Ventures
-                                </div>
+                                {{-- <div class="subtitle id-color wow fadeInUp" data-wow-delay=".3s">Welcome to Raymoch-Ventures
+                                </div> --}}
                                 <br>
                                 <h2 class="text-uppercase wow fadeInUp" data-wow-delay=".4s">East African  Enterprise Hub
                                     {{-- <span class="id-color-2">Explore East Africa Potential</span> --}}
@@ -49,10 +47,10 @@
                                 <div class="hover relative overflow-hidden text-light text-center">
                                     <img src="{{asset('images/services/1.png')}}" class="hover-scale-1-1 w-100" alt="">
                                     <div class="abs w-100 px-4 hover-op-1 z-4 hover-mt-40 abs-centered">
-                                        <a class="btn-line" href="service-single.html">View Details</a>
+                                        <a class="btn-line"  href="{{route('power_generation')}}">View Details</a>
                                     </div>
-                                    <img src="{{asset('images/logo-icon.webp')}}" class="abs abs-centered w-20" alt="">
-                                    <div class="abs bg-color z-2 top-0 w-100 h-100 hover-op-1"></div>
+                                    <img src="{{asset('images/1-edited-ai-reference.png')}}" class="abs abs-centered w-20" alt="">
+
                                     <div class="abs z-2 bottom-0 mb-3 w-100 text-center hover-op-0">
                                         <h4 class="mb-3">Power Generation</h4>
                                     </div>
@@ -60,7 +58,13 @@
                                 </div>
 
                                 <div class="p-4 py-2">
-                                    <p class="mt-3">Utilize a mix of renewable and non-renewable energy, including solar, wind, hydropower, biomass, geothermal, natural gas, and nuclear, to ensure a stable, cost-effective, and environmentally friendly energy supply.</p>
+                                    <p class="mt-3">
+                                        <li>
+                                        <ul>✅ Affordable electricity drives industries, supports businesses, and transforms everyday life.</ul>
+                                        <ul>✅ Renewable energy solutions power homes, schools, and hospitals for a brighter future.</ul>
+                                        <ul>✅ Digital expansion enables entrepreneurs, tech startups, and cross-border opportunities.</p> </ul>
+                                        </li>
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -72,7 +76,7 @@
                                     <div class="abs w-100 px-4 hover-op-1 z-4 hover-mt-40 abs-centered">
                                         <a class="btn-line" href="service-single.html">View Details</a>
                                     </div>
-                                    <img src="{{asset('images/logo-icon.webp')}}" class="abs abs-centered w-20" alt="">
+                                    <img src="{{asset('images/1-edited-ai-reference.png')}}" class="abs abs-centered w-20" alt="">
                                     <div class="abs bg-color z-2 top-0 w-100 h-100 hover-op-1"></div>
                                     <div class="abs z-2 bottom-0 mb-3 w-100 text-center hover-op-0">
                                         <h4 class="mb-3">Whole Sales</h4>
@@ -81,7 +85,13 @@
                                 </div>
 
                                 <div class="p-4 py-2">
-                                    <p class="mt-3">Imagine stepping into your own private oasis—a garden designed just for you, where every plant, path, and stone tells your story.</p>
+                                    <p class="mt-3">
+                                        <li>
+                                        <ul>✅ Reliable supply chains ensure businesses stay competitive and profitable.</ul>
+                                        <ul>✅  Bulk purchasing power lowers costs and maximizes revenue. </ul>
+                                        <ul>✅ Technology-driven trade streamlines logistics, payments, and cross-border transactions.</p> </ul>
+                                        </li>
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -93,7 +103,7 @@
                                     <div class="abs w-100 px-4 hover-op-1 z-4 hover-mt-40 abs-centered">
                                         <a class="btn-line" href="service-single.html">View Details</a>
                                     </div>
-                                    <img src="{{asset('images/logo-icon.webp')}}" class="abs abs-centered w-20" alt="">
+                                    <img src="{{asset('images/1-edited-ai-reference.png')}}" class="abs abs-centered w-20" alt="">
                                     <div class="abs bg-color z-2 top-0 w-100 h-100 hover-op-1"></div>
                                     <div class="abs z-2 bottom-0 mb-3 w-100 text-center hover-op-0">
                                         <h4 class="mb-3">Construction</h4>
@@ -102,8 +112,14 @@
                                 </div>
 
                                 <div class="p-4 py-2">
-                                    <p class="mt-3">Imagine stepping into your own private oasis—a garden designed just for you, where every plant, path, and stone tells your story.</p>
-                                </div>
+                                    <p class="mt-3">
+                                        <li>
+                                        <ul>✅ Reliable materials & technology drive efficiency and quality in every project.</ul>
+                                        <ul>✅ Sustainable building solutions ensure long-term growth and environmental responsibility </ul>
+                                        <ul>✅ Strong networks & partnerships unlock opportunities in real estate, roads, and mega projects. </p> </ul>
+                                        </li>
+                                    </p>
+                                 </div>
                             </div>
                         </div>
 
@@ -114,7 +130,7 @@
                                     <div class="abs w-100 px-4 hover-op-1 z-4 hover-mt-40 abs-centered">
                                         <a class="btn-line" href="service-single.html">View Details</a>
                                     </div>
-                                    <img src="{{asset('images/logo-icon.webp')}}" class="abs abs-centered w-20" alt="">
+                                    <img src="{{asset('images/1-edited-ai-reference.png')}}" class="abs abs-centered w-20" alt="">
                                     <div class="abs bg-color z-2 top-0 w-100 h-100 hover-op-1"></div>
                                     <div class="abs z-2 bottom-0 mb-3 w-100 text-center hover-op-0">
                                         <h4 class="mb-3">Hotel and Dining Business </h4>
@@ -123,8 +139,16 @@
                                 </div>
 
                                 <div class="p-4 py-2">
-                                    <p class="mt-3">Imagine stepping into your own private oasis—a garden designed just for you, where every plant, path, and stone tells your story.</p>
-                                </div>
+
+                                    <p class="mt-3">
+                                        <li>
+                                        <ul>✅ Exceptional service & quality attract local and international guests.</ul>
+                                        <ul>✅ Culinary excellence & ambiance create unforgettable dining experiences. </ul>
+                                        <ul>✅ Strong digital presence & customer engagement boost reservations and brand recognition.</ul>
+                                        </li>
+                                    </p>
+
+                                 </div>
                             </div>
                         </div>
 
@@ -133,9 +157,9 @@
             </section>
 
             <section class="jarallax text-light relative">
-                <img src="{{asset('images/background/8.webp')}}" class="jarallax-img" alt="">
+                <img src="{{asset('images/background/3.jpg')}}" class="jarallax-img" alt="">
                 <div class="de-overlay"></div>
-                <div class="container relative z-1">
+                {{-- <div class="container relative z-1">
                     <div class="row g-4 gx-5 align-items-center">
                         <div class="col-lg-6">
                             <div class="subtitle wow fadeInUp mb-3">Our Story</div>
@@ -209,7 +233,7 @@
                         </div>
 
                     </div>
-                </div>
+                </div> --}}
             </section>
 
             {{-- <section class="jarallax">
@@ -517,7 +541,7 @@
                     </div>
                 </div>
             </section> --}}
-
+{{--
             <section class="p-4" aria-label="section">
                 <div class="container-fluid">
                     <div class="row">
@@ -534,6 +558,117 @@
                         </div>
                     </div>
                 </div>
+            </section> --}}
+
+            <section class="p-4">
+                <div class="container-fluid">
+                    <div class="row g-4">
+                        <div class="col-lg-3 col-sm-6 wow fadeInRight" data-wow-delay=".0s">
+                            <div class="bg-color text-light rounded-1 overflow-hidden">
+                                <div class="hover relative overflow-hidden text-light text-center">
+                                    <img src="{{asset('images/background/1.png')}}" class="hover-scale-1-1 w-100" alt="">
+                                    <div class="abs w-100 px-4 hover-op-1 z-4 hover-mt-40 abs-centered">
+                                        <a class="btn-line" href="service-single.html">View Details</a>
+                                    </div>
+                                    <img src="{{asset('images/1-edited-ai-reference.png')}}" class="abs abs-centered w-20" alt="">
+                                    <div class="abs bg-color z-2 top-0 w-100 h-100 hover-op-1"></div>
+                                    <div class="abs z-2 bottom-0 mb-3 w-100 text-center hover-op-0">
+                                        <h4 class="mb-3">Manufacturing</h4>
+                                    </div>
+                                    <div class="gradient-trans-color-bottom abs w-100 h-40 bottom-0 Z-1"></div>
+                                </div>
+
+                                <div class="p-4 py-2">
+                                    <p class="mt-3">
+                                        <li>
+                                        <ul>✅ Advanced production & technology enhance efficiency and product quality.</ul>
+                                        <ul>✅ Strong supply chains & logistics ensure seamless operations and market expansion. </ul>
+                                        <ul>✅ Sustainable manufacturing practices drive long-term growth and competitiveness.</ul>
+                                        </li>
+                                    </p>                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-sm-6 wow fadeInRight" data-wow-delay=".3s">
+                            <div class="bg-color text-light rounded-1 overflow-hidden">
+                                <div class="hover relative overflow-hidden text-light text-center">
+                                    <img src="{{asset('images/background/2.png')}}" class="hover-scale-1-1 w-100" alt="">
+                                    <div class="abs w-100 px-4 hover-op-1 z-4 hover-mt-40 abs-centered">
+                                        <a class="btn-line" href="service-single.html">View Details</a>
+                                    </div>
+                                    <img src="{{asset('images/1-edited-ai-reference.png')}}" class="abs abs-centered w-20" alt="">
+                                    <div class="abs bg-color z-2 top-0 w-100 h-100 hover-op-1"></div>
+                                    <div class="abs z-2 bottom-0 mb-3 w-100 text-center hover-op-0">
+                                        <h4 class="mb-3">Retail</h4>
+                                    </div>
+                                    <div class="gradient-trans-color-bottom abs w-100 h-40 bottom-0 Z-1"></div>
+                                </div>
+
+                                <div class="p-4 py-2">
+                                    <p class="mt-3">
+                                        <li>
+                                        <ul>✅ Seamless supply chains ensure stocked shelves and satisfied customers.</ul>
+                                        <ul>✅ Digital retail solutions expand reach and boost sales. </ul>
+                                        <ul>✅ Customer-focused strategies build brand loyalty and long-term success.</ul>
+                                        </li>
+                                    </p>                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-sm-6 wow fadeInRight" data-wow-delay=".6s">
+                            <div class="bg-color text-light rounded-1 overflow-hidden">
+                                <div class="hover relative overflow-hidden text-light text-center">
+                                    <img src="{{asset('images/background/3.jpg')}}" class="hover-scale-1-1 w-100" alt="">
+                                    <div class="abs w-100 px-4 hover-op-1 z-4 hover-mt-40 abs-centered">
+                                        <a class="btn-line" href="service-single.html">View Details</a>
+                                    </div>
+                                    <img src="{{asset('images/1-edited-ai-reference.png')}}" class="abs abs-centered w-20" alt="">
+                                    <div class="abs bg-color z-2 top-0 w-100 h-100 hover-op-1"></div>
+                                    <div class="abs z-2 bottom-0 mb-3 w-100 text-center hover-op-0">
+                                        <h4 class="mb-3">Service</h4>
+                                    </div>
+                                    <div class="gradient-trans-color-bottom abs w-100 h-40 bottom-0 Z-1"></div>
+                                </div>
+
+                                <div class="p-4 py-2">
+                                    <p class="mt-3">
+                                        <li>
+                                        <ul>✅ Quality-driven solutions build trust and long-term client relationships.</ul>
+                                        <ul>✅ Technology & digital tools enhance efficiency and service delivery. </ul>
+                                        <ul>✅ Strong networks & customer engagement expand market reach and brand reputation.</ul>
+                                        </li>
+                                    </p>                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-sm-6 wow fadeInRight" data-wow-delay=".9s">
+                            <div class="bg-color text-light rounded-1 overflow-hidden">
+                                <div class="hover relative overflow-hidden text-light text-center">
+                                    <img src="{{asset('images/background/4.png')}}" class="hover-scale-1-1 w-100" alt="">
+                                    <div class="abs w-100 px-4 hover-op-1 z-4 hover-mt-40 abs-centered">
+                                        <a class="btn-line" href="service-single.html">View Details</a>
+                                    </div>
+                                    <img src="{{asset('images/1-edited-ai-reference.png')}}" class="abs abs-centered w-20" alt="">
+                                    <div class="abs bg-color z-2 top-0 w-100 h-100 hover-op-1"></div>
+                                    <div class="abs z-2 bottom-0 mb-3 w-100 text-center hover-op-0">
+                                        <h4 class="mb-3">E-commerce </h4>
+                                    </div>
+                                    <div class="gradient-trans-color-bottom abs w-100 h-40 bottom-0 Z-1"></div>
+                                </div>
+
+                                <div class="p-4 py-2">
+                                    <p class="mt-3">
+                                        <li>
+                                        <ul>✅ Seamless online shopping experiences boost customer engagement and sales.</ul>
+                                        <ul>✅ Secure payment gateways & logistics solutions ensure smooth transactions and deliveries. </ul>
+                                        <ul>✅ Data-driven insights & digital marketing maximize visibility and business growth.</ul>
+                                        </li>
+                                    </p>                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
             </section>
 
             <section class="jarallax">
@@ -543,28 +678,40 @@
                         <div class="col-lg-10 text-center">
                             <div class="owl-single-dots owl-carousel owl-theme">
                                 <div class="item">
-                                    <i class="icofont-quote-left fs-40 mb-4 wow fadeInUp id-color-2"></i>
-                                    <h3 class="mb-4 wow fadeInUp fs-32">We hired Gardyn to transform our backyard, and the results were beyond our expectations. The team was professional, punctual, and incredibly knowledgeable about plants and landscaping.</h3>
-                                    <span class="wow fadeInUp">Donette Fondren</span>
+                                    {{-- <i class="float fs-40 mb-4 wow fadeInUp id-color-2 center ">Our Mission...</i> --}}
+
+                                    <h3 class="mb-4 wow fadeInUp fs-32">
+                                        To create a platform that connects East African businesses with global markets,
+                                         increasing their visibility, opportunities, and international partnerships.
+                                          </h3>
+
+                                    <span class="wow fadeInUp">Our Goal</span>
                                 </div>
 
                                 <div class="item">
                                     <i class="icofont-quote-left fs-40 mb-4 wow fadeInUp id-color-2"></i>
-                                    <h3 class="mb-4 wow fadeInUp fs-32">We hired Gardyn to transform our backyard, and the results were beyond our expectations. The team was professional, punctual, and incredibly knowledgeable about plants and landscaping.</h3>
-                                    <span class="wow fadeInUp">Donette Fondren</span>
+                                    <h3 class="mb-4 wow fadeInUp fs-32">  Empower East African businesses by providing a digital platform to showcase their products and services globally.
+                                        Bridge the gap between local businesses and international markets through networking, digital marketing, and technology-driven solutions.
+                                        Facilitate trade by offering resources, insights, and connections that enhance global business opportunities for East African entrepreneurs.
+                                        Promote economic development by enabling small and large businesses to expand beyond regional borders and attract international investors.
+                                    </h3>
+                                    <span class="wow fadeInUp">Our Mission</span>
                                 </div>
 
                                 <div class="item">
                                     <i class="icofont-quote-left fs-40 mb-4 wow fadeInUp id-color-2"></i>
-                                    <h3 class="mb-4 wow fadeInUp fs-32">We hired Gardyn to transform our backyard, and the results were beyond our expectations. The team was professional, punctual, and incredibly knowledgeable about plants and landscaping.</h3>
-                                    <span class="wow fadeInUp">Donette Fondren</span>
+                                    <h3 class="mb-4 wow fadeInUp fs-32">
+                                        To be the leading digital gateway that promotes East African businesses to the world, fostering economic growth, cross-border trade, and global recognition for the region’s enterprises.
+                                    </h3>
+                                    <span class="wow fadeInUp">Our Vision</span>
                                 </div>
 
-                                <div class="item">
+                                 {{-- <div class="item">
                                     <i class="icofont-quote-left fs-40 mb-4 wow fadeInUp id-color-2"></i>
-                                    <h3 class="mb-4 wow fadeInUp fs-32">We hired Gardyn to transform our backyard, and the results were beyond our expectations. The team was professional, punctual, and incredibly knowledgeable about plants and landscaping.</h3>
+                                    <h3 class="mb-4 wow fadeInUp fs-32">was professional, punctual, and incredibly knowledgeable about plants and landscaping.</h3>
                                     <span class="wow fadeInUp">Donette Fondren</span>
-                                </div>
+                                </div> --}}
+
                             </div>
                         </div>
                     </div>

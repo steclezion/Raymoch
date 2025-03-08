@@ -2,9 +2,9 @@
             <div class="container relative z-2">
                 <div class="row gx-5">
                     <div class="col-lg-4 col-sm-6">
-                        <img src="{{asset('images/logo-white.webp')}}" class="w-150px" alt="" >
+                        <img src="{{asset('images/1-edited-ai-1.svg')}}" class="w-150px" alt="" >
                         <div class="spacer-20"></div>
-                        <p>Transform your outdoor space with our expert garden services! From design to maintenance, we create beautiful, thriving gardens tailored to your vision. Let us bring your dream garden to life—professional, reliable, and passionate about nature.</p>
+                        <p>Transform your outdoor space with our expert Raymoch services! From design to maintenance, we create beautiful, thriving Raymochs tailored to your vision. Let us bring your dream Raymoch to life—professional, reliable, and passionate about nature.</p>
 
                         <div class="social-icons mb-sm-30">
                             <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
@@ -33,8 +33,8 @@
                                 <div class="widget">
                                     <h5>Our Services</h5>
                                     <ul>
-                                        <li><a href="service-single.html">Garden Design</a></li>
-                                        <li><a href="service-single.html">Garden Maintenance</a></li>
+                                        <li><a href="service-single.html">Raymoch Design</a></li>
+                                        <li><a href="service-single.html">Raymoch Maintenance</a></li>
                                         <li><a href="service-single.html">Planting Services</a></li>
                                         <li><a href="service-single.html">Tree Care</a></li>
                                         <li><a href="service-single.html">Irrigation Services</a></li>
