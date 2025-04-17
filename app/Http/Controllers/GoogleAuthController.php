@@ -124,9 +124,11 @@ return redirect()->route('login')->with('success', 'We sent you a verification e
             abort(403, 'Invalid or expired verification link.');
         }
 
-        $user = User::findOrFail($request->user);
+        $user = User::findOrFail($request->input('user'));
         $user->is_verified = true;
         $user->save();
+
+\Log::info('Verifying user from email link:', $request->all());
 
         return redirect()->route('dashboard')->with('success', 'Your email is verified. Welcome to Raymoch!!.');
     }
